@@ -1,0 +1,115 @@
+===> 2018-10-23 17:20:11.657 -07:00 [Information] Starting web host
+===> 2018-10-23 17:20:11.798 -07:00 [Debug] Hosting starting
+===> 2018-10-23 17:20:12.059 -07:00 [Information] User profile is available. Using '"C:\Users\sameert\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2018-10-23 17:20:12.084 -07:00 [Debug] Repository contains no viable default key. Caller should generate a key with immediate activation.
+===> 2018-10-23 17:20:12.084 -07:00 [Debug] Policy resolution states that a new key should be added to the key ring.
+===> 2018-10-23 17:20:12.091 -07:00 [Information] Creating key {3416280f-13d6-4bcf-b8ec-74b529c44686} with creation date 2018-10-24 00:20:12Z, activation date 2018-10-24 00:20:12Z, and expiration date 2019-01-22 00:20:12Z.
+===> 2018-10-23 17:20:12.192 -07:00 [Debug] Descriptor deserializer type for key {3416280f-13d6-4bcf-b8ec-74b529c44686} is '"Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60"'.
+===> 2018-10-23 17:20:12.198 -07:00 [Debug] No key escrow sink found. Not writing key {3416280f-13d6-4bcf-b8ec-74b529c44686} to escrow.
+===> 2018-10-23 17:20:12.283 -07:00 [Debug] Encrypting to Windows DPAPI for current user account ("REDMOND\sameert").
+===> 2018-10-23 17:20:12.310 -07:00 [Information] Writing data to file '"C:\Users\sameert\AppData\Local\ASP.NET\DataProtection-Keys\key-3416280f-13d6-4bcf-b8ec-74b529c44686.xml"'.
+===> 2018-10-23 17:20:12.319 -07:00 [Debug] Key cache expiration token triggered by '"CreateNewKey"' operation.
+===> 2018-10-23 17:20:12.323 -07:00 [Debug] Reading data from file '"C:\Users\sameert\AppData\Local\ASP.NET\DataProtection-Keys\key-3416280f-13d6-4bcf-b8ec-74b529c44686.xml"'.
+===> 2018-10-23 17:20:12.337 -07:00 [Debug] Found key {3416280f-13d6-4bcf-b8ec-74b529c44686}.
+===> 2018-10-23 17:20:12.343 -07:00 [Debug] Considering key {3416280f-13d6-4bcf-b8ec-74b529c44686} with expiration date 2019-01-22 00:20:12Z as default key.
+===> 2018-10-23 17:20:12.463 -07:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2018-10-23 17:20:12.466 -07:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2018-10-23 17:20:12.468 -07:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2018-10-23 17:20:12.479 -07:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2018-10-23 17:20:12.486 -07:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2018-10-23 17:20:12.497 -07:00 [Debug] Using key {3416280f-13d6-4bcf-b8ec-74b529c44686} as the default key.
+===> 2018-10-23 17:20:12.500 -07:00 [Debug] Key ring with default key {3416280f-13d6-4bcf-b8ec-74b529c44686} was loaded during application startup.
+===> 2018-10-23 17:20:12.552 -07:00 [Debug] Compatibility switch "AllowInputFormatterExceptionMessages" in type "MvcJsonOptions" is using default value False
+===> 2018-10-23 17:20:12.593 -07:00 [Debug] Compatibility switch "AllowCombiningAuthorizeFilters" in type "MvcOptions" is using default value False
+===> 2018-10-23 17:20:12.593 -07:00 [Debug] Compatibility switch "AllowBindingHeaderValuesToNonStringModelTypes" in type "MvcOptions" is using default value False
+===> 2018-10-23 17:20:12.593 -07:00 [Debug] Compatibility switch "AllowValidatingTopLevelNodes" in type "MvcOptions" is using default value False
+===> 2018-10-23 17:20:12.594 -07:00 [Debug] Compatibility switch "InputFormatterExceptionPolicy" in type "MvcOptions" is using default value AllExceptions
+===> 2018-10-23 17:20:12.594 -07:00 [Debug] Compatibility switch "SuppressBindingUndefinedValueToEnumType" in type "MvcOptions" is using default value False
+===> 2018-10-23 17:20:12.645 -07:00 [Debug] Compatibility switch "AllowAreas" in type "RazorPagesOptions" is using default value False
+===> 2018-10-23 17:20:12.645 -07:00 [Debug] Compatibility switch "AllowMappingHeadRequestsToGetHandler" in type "RazorPagesOptions" is using default value False
+===> 2018-10-23 17:20:12.762 -07:00 [Debug] Compatibility switch "SuppressTempDataAttributePrefix" in type "MvcViewOptions" is using default value False
+===> 2018-10-23 17:20:12.834 -07:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2018-10-23 17:20:13.135 -07:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2018-10-23 17:20:13.777 -07:00 [Information] Entity Framework Core "2.1.0-rtm-30799" initialized '"VMSSTestContext"' using provider '"Microsoft.EntityFrameworkCore.InMemory"' with options: "StoreName=TestDB-6b71c216-cbea-427a-95a8-bb7dc5f6bf3d "
+===> 2018-10-23 17:20:13.858 -07:00 [Debug] Compiling query model: "
+"'"(from Account <generated>_1 in DbSet<Account>
+select [<generated>_1]).Any()"'
+===> 2018-10-23 17:20:13.888 -07:00 [Debug] Optimized query model: "
+"'"(from Account <generated>_1 in DbSet<Account>
+select [<generated>_1]).Any()"'
+===> 2018-10-23 17:20:13.948 -07:00 [Debug] "(QueryContext queryContext) => IEnumerable<bool> _InterceptExceptions(
+    source: IEnumerable<bool> _ToSequence(() => bool Any(IEnumerable<ValueBuffer> ProjectionQuery(
+                queryContext: queryContext, 
+                entityType: EntityType: Account))), 
+    contextType: VMSSTest.Entity.Context.VMSSTestContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+===> 2018-10-23 17:20:14.182 -07:00 [Debug] '"VMSSTestContext"' generated a value for the '"Id"' property of new '"Account"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2018-10-23 17:20:14.251 -07:00 [Debug] Context '"Account"' started tracking '"VMSSTestContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2018-10-23 17:20:14.256 -07:00 [Debug] DetectChanges starting for '"VMSSTestContext"'.
+===> 2018-10-23 17:20:14.278 -07:00 [Debug] DetectChanges completed for '"VMSSTestContext"'.
+===> 2018-10-23 17:20:14.281 -07:00 [Debug] SaveChanges starting for '"VMSSTestContext"'.
+===> 2018-10-23 17:20:14.281 -07:00 [Debug] DetectChanges starting for '"VMSSTestContext"'.
+===> 2018-10-23 17:20:14.282 -07:00 [Debug] Unchanged '"Account"."Created"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2018-10-23 17:20:14.286 -07:00 [Debug] Unchanged '"Account"."Modified"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2018-10-23 17:20:14.286 -07:00 [Debug] DetectChanges completed for '"VMSSTestContext"'.
+===> 2018-10-23 17:20:14.301 -07:00 [Information] Saved 1 entities to in-memory store.
+===> 2018-10-23 17:20:14.309 -07:00 [Debug] An '"Account"' entity tracked by '"VMSSTestContext"' changed from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2018-10-23 17:20:14.312 -07:00 [Debug] SaveChanges completed for '"VMSSTestContext"' with 1 entities written to the database.
+===> 2018-10-23 17:20:14.313 -07:00 [Debug] Compiling query model: "
+"'"(from User <generated>_1 in DbSet<User>
+select [<generated>_1]).Any()"'
+===> 2018-10-23 17:20:14.314 -07:00 [Debug] Optimized query model: "
+"'"(from User <generated>_1 in DbSet<User>
+select [<generated>_1]).Any()"'
+===> 2018-10-23 17:20:14.315 -07:00 [Debug] "(QueryContext queryContext) => IEnumerable<bool> _InterceptExceptions(
+    source: IEnumerable<bool> _ToSequence(() => bool Any(IEnumerable<ValueBuffer> ProjectionQuery(
+                queryContext: queryContext, 
+                entityType: EntityType: User))), 
+    contextType: VMSSTest.Entity.Context.VMSSTestContext, 
+    logger: DiagnosticsLogger<Query>, 
+    queryContext: queryContext)"
+===> 2018-10-23 17:20:14.332 -07:00 [Debug] '"VMSSTestContext"' generated a value for the '"Id"' property of new '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2018-10-23 17:20:14.348 -07:00 [Debug] Context '"User"' started tracking '"VMSSTestContext"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2018-10-23 17:20:14.349 -07:00 [Debug] DetectChanges starting for '"VMSSTestContext"'.
+===> 2018-10-23 17:20:14.353 -07:00 [Debug] DetectChanges completed for '"VMSSTestContext"'.
+===> 2018-10-23 17:20:14.354 -07:00 [Debug] SaveChanges starting for '"VMSSTestContext"'.
+===> 2018-10-23 17:20:14.354 -07:00 [Debug] DetectChanges starting for '"VMSSTestContext"'.
+===> 2018-10-23 17:20:14.354 -07:00 [Debug] Unchanged '"User"."Created"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2018-10-23 17:20:14.355 -07:00 [Debug] Unchanged '"User"."Modified"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2018-10-23 17:20:14.355 -07:00 [Debug] DetectChanges completed for '"VMSSTestContext"'.
+===> 2018-10-23 17:20:14.355 -07:00 [Information] Saved 1 entities to in-memory store.
+===> 2018-10-23 17:20:14.356 -07:00 [Debug] An '"User"' entity tracked by '"VMSSTestContext"' changed from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2018-10-23 17:20:14.356 -07:00 [Debug] SaveChanges completed for '"VMSSTestContext"' with 1 entities written to the database.
+===> 2018-10-23 17:20:14.357 -07:00 [Debug] '"VMSSTestContext"' disposed.
+===> 2018-10-23 17:20:14.394 -07:00 [Debug] Failed to locate the development https certificate at 'null'.
+===> 2018-10-23 17:20:14.516 -07:00 [Debug] Hosting started
+===> 2018-10-23 17:20:14.517 -07:00 [Debug] Loaded hosting startup assembly "VMSSTest.Api"
+===> 2018-10-23 17:20:14.517 -07:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+===> 2018-10-23 17:20:14.599 -07:00 [Debug] Connection id ""0HLHP8PS2HTFH"" started.
+===> 2018-10-23 17:20:14.670 -07:00 [Debug] Connection id ""0HLHP8PS2HTFI"" started.
+===> 2018-10-23 17:20:14.781 -07:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2018-10-23 17:20:14.781 -07:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:44341/  0
+===> 2018-10-23 17:20:14.792 -07:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2018-10-23 17:20:14.792 -07:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2018-10-23 17:20:14.911 -07:00 [Debug] Connection id ""0HLHP8PS2HTFH"" completed keep alive response.
+===> 2018-10-23 17:20:14.930 -07:00 [Information] Request finished in 140.3138ms 200 
+===> 2018-10-23 17:20:14.957 -07:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2018-10-23 17:20:15.205 -07:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'.
+===> 2018-10-23 17:20:15.275 -07:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing action "VMSSTest.Api.Controllers.InfoController.ApiInfo (VMSSTest.Api)"
+===> 2018-10-23 17:20:15.277 -07:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2018-10-23 17:20:15.279 -07:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+===> 2018-10-23 17:20:15.279 -07:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter"]
+===> 2018-10-23 17:20:15.280 -07:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2018-10-23 17:20:15.280 -07:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2018-10-23 17:20:15.391 -07:00 [Information] Executing action method "VMSSTest.Api.Controllers.InfoController.ApiInfo (VMSSTest.Api)" - Validation state: Valid
+===> 2018-10-23 17:20:15.401 -07:00 [Information] Executed action method "VMSSTest.Api.Controllers.InfoController.ApiInfo (VMSSTest.Api)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 7.3581ms.
+===> 2018-10-23 17:20:15.419 -07:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2018-10-23 17:20:15.444 -07:00 [Information] Executed action "VMSSTest.Api.Controllers.InfoController.ApiInfo (VMSSTest.Api)" in 156.5842ms
+===> 2018-10-23 17:20:15.445 -07:00 [Debug] Connection id ""0HLHP8PS2HTFI"" completed keep alive response.
+===> 2018-10-23 17:20:15.453 -07:00 [Information] Request finished in 681.1397ms 200 text/html
+===> 2018-10-23 17:20:15.802 -07:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2018-10-23 17:20:15.803 -07:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2018-10-23 17:20:15.809 -07:00 [Debug] Request did not match any routes.
+===> 2018-10-23 17:20:15.818 -07:00 [Debug] Connection id ""0HLHP8PS2HTFH"" completed keep alive response.
+===> 2018-10-23 17:20:15.818 -07:00 [Information] Request finished in 15.9642ms 404 
