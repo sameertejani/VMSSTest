@@ -11,6 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMSSTest.Entity", "VMSSTest
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{9E4488B6-D570-49F2-8BDB-03222378ED7F}"
 	ProjectSection(SolutionItems) = preProject
+		copyprojectfiles.ps1 = copyprojectfiles.ps1
 		VMSSTest\Deploy\DeployAspApp1.ps1 = VMSSTest\Deploy\DeployAspApp1.ps1
 		VMSSTest\Deploy\vmsscreateorupdate.ps1 = VMSSTest\Deploy\vmsscreateorupdate.ps1
 	EndProjectSection

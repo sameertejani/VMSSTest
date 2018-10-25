@@ -5,10 +5,12 @@ using Loggly;
 using Loggly.Config;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+//using Microsoft.AspNetCore.Hosting.WindowsServices;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using Serilog.Events;
+using System.Diagnostics;
 
 /// <summary>
 /// Designed by AnaSoft Inc. 2018
@@ -72,16 +74,22 @@ namespace VMSSTest.Api
         }
 
 
-        public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .ConfigureLogging((hostingContext, config) =>
-                {
-                    config.ClearProviders();  //Disabling default integrated logger
-                    _environmentName = hostingContext.HostingEnvironment.EnvironmentName;
-                })
-                .UseStartup<Startup>()
-                .UseSerilog() // <-- Add this line
-                .Build();
+        public static IWebHost BuildWebHost(string[] args)
+        {
+            var pathToExe = Process.GetCurrentProcess().MainModule.FileName;
+            var pathToContentRoot = Path.GetDirectoryName(pathToExe);
+
+            return WebHost.CreateDefaultBuilder(args)
+                    .ConfigureLogging((hostingContext, config) =>
+                    {
+                        config.ClearProviders();  //Disabling default integrated logger
+                        _environmentName = hostingContext.HostingEnvironment.EnvironmentName;
+                    })
+                    .UseContentRoot(pathToContentRoot)
+                    .UseStartup<Startup>()
+                    .UseSerilog() // <-- Add this line
+                    .Build();
+        }
 
 
         /// <summary>
