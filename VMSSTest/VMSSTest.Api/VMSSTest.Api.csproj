@@ -30,4 +30,10 @@
     <ProjectReference Include="..\VMSSTest.Domain\VMSSTest.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="Deploy\copyprojectfiles.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  
 </Project>

@@ -9,13 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMSSTest.Domain", "VMSSTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMSSTest.Entity", "VMSSTest\VMSSTest.Entity\VMSSTest.Entity.csproj", "{CDCD18A6-D425-405E-8DC9-7E08C0E9FA3C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{9E4488B6-D570-49F2-8BDB-03222378ED7F}"
-	ProjectSection(SolutionItems) = preProject
-		copyprojectfiles.ps1 = copyprojectfiles.ps1
-		VMSSTest\Deploy\DeployAspApp1.ps1 = VMSSTest\Deploy\DeployAspApp1.ps1
-		VMSSTest\Deploy\vmsscreateorupdate.ps1 = VMSSTest\Deploy\vmsscreateorupdate.ps1
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
